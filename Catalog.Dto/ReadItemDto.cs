@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Catalog.Domain
+namespace Catalog.Dto
 {
-    public record Item
+    public record ReadItemDto
     {
         public Guid Id { get; init; }
         public string Name { get; init; }

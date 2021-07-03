@@ -9,7 +9,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
+      <ProjectReference Include="..\Catalog.Dto\Catalog.Dto.csproj" />
+      <ProjectReference Include="..\Catalog.Repository\Catalog.Repository.csproj" />
     </ItemGroup>
 
 </Project>
