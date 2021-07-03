@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog", "Catalog\Catalog.csproj", "{F38201A6-B560-4718-BCF9-AD1B8F88094F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "Catalog.Domain\Catalog.Domain.csproj", "{2C2634D9-2228-4017-B00D-AA8A05CA5E43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F38201A6-B560-4718-BCF9-AD1B8F88094F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F38201A6-B560-4718-BCF9-AD1B8F88094F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F38201A6-B560-4718-BCF9-AD1B8F88094F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2634D9-2228-4017-B00D-AA8A05CA5E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2634D9-2228-4017-B00D-AA8A05CA5E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2634D9-2228-4017-B00D-AA8A05CA5E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2634D9-2228-4017-B00D-AA8A05CA5E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
