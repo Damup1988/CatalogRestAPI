@@ -8,4 +8,8 @@
       <ProjectReference Include="..\Catalog.Domain\Catalog.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="2.13.0-beta1" />
+    </ItemGroup>
+
 </Project>

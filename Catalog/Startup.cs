@@ -29,6 +29,7 @@ namespace Catalog
         {
             services.AddControllers();
             services.AddSingleton<IItemRepository, ItemRepository>();
+            services.AddSingleton<IItemRepository, ItemRepositoryMongoDb>();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Catalog", Version = "v1"}); });
         }
 
