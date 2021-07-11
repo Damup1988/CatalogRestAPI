@@ -11,6 +11,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Catalog.Dto\Catalog.Dto.csproj" />
       <ProjectReference Include="..\Catalog.Repository\Catalog.Repository.csproj" />
+      <ProjectReference Include="..\Catalog.Settings\Catalog.Settings.csproj" />
     </ItemGroup>
 
 </Project>

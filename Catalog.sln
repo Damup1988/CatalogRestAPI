@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Repository", "Catal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Dto", "Catalog.Dto\Catalog.Dto.csproj", "{9FA0881C-CF2F-4124-9CE0-FB671EF1C224}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Settings", "Catalog.Settings\Catalog.Settings.csproj", "{A92DC779-390F-43A7-B3F7-3B9AD43B8D4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{9FA0881C-CF2F-4124-9CE0-FB671EF1C224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA0881C-CF2F-4124-9CE0-FB671EF1C224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA0881C-CF2F-4124-9CE0-FB671EF1C224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92DC779-390F-43A7-B3F7-3B9AD43B8D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92DC779-390F-43A7-B3F7-3B9AD43B8D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92DC779-390F-43A7-B3F7-3B9AD43B8D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92DC779-390F-43A7-B3F7-3B9AD43B8D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
