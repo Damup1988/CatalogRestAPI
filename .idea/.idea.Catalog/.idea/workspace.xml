@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b3bb5394-5d1b-4325-9c13-e39ec6968a33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Repository/IItemRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Repository/IItemRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Repository/ItemRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog.Repository/ItemRepositoryMongoDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Repository/ItemRepositoryMongoDb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog/Catalog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Catalog.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/appsettings.json" afterDir="false" />
     </list>
@@ -28,6 +31,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2E9BEEB1-8083-4F4B-9ABE-A5F3DB1BC8BD/2C2/AsyncTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Catalog.Domain/Class1.cs" />
@@ -38,15 +44,15 @@
       <option value="$PROJECT_DIR$/Catalog/Extensions.cs" />
       <option value="$PROJECT_DIR$/Catalog.Dto/CreateItemDto.cs" />
       <option value="$PROJECT_DIR$/Catalog.Dto/UpdateItemDto.cs" />
-      <option value="$PROJECT_DIR$/Catalog.Repository/IItemRepository.cs" />
       <option value="$PROJECT_DIR$/Catalog.Repository/ItemRepository.cs" />
-      <option value="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" />
       <option value="$PROJECT_DIR$/Catalog.Repository/ItemRepositoryMongoDB.cs" />
-      <option value="$PROJECT_DIR$/Catalog/appsettings.json" />
       <option value="$PROJECT_DIR$/Catalog.Settings/Class1.cs" />
-      <option value="$PROJECT_DIR$/Catalog/Startup.cs" />
-      <option value="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" />
+      <option value="$PROJECT_DIR$/Catalog.Repository/IItemRepository.cs" />
       <option value="$PROJECT_DIR$/Catalog.Repository/ItemRepositoryMongoDb.cs" />
+      <option value="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" />
+      <option value="$PROJECT_DIR$/Catalog/appsettings.json" />
+      <option value="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" />
+      <option value="$PROJECT_DIR$/Catalog/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1unnPtH4xA2xbYwGY8stzVeZ4wD" />
@@ -59,6 +65,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498268" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -107,7 +115,8 @@
       <workItem from="1625310206393" duration="10823000" />
       <workItem from="1625394913955" duration="546000" />
       <workItem from="1625397122080" duration="3972000" />
-      <workItem from="1626006545724" duration="2961000" />
+      <workItem from="1626006545724" duration="8873000" />
+      <workItem from="1626131755335" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625310236523</created>
@@ -137,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625394088373</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All CRUDs have been implemented with MongoDB rep">
+      <created>1626009731300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626009731300</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +179,7 @@
     <MESSAGE value="Item has been added to Domain as a record, with 4 props" />
     <MESSAGE value="CRUD has been implemented for our virtual repository" />
     <MESSAGE value="Repo for mongoDb has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repo for mongoDb has been added" />
+    <MESSAGE value="All CRUDs have been implemented with MongoDB rep" />
+    <option name="LAST_COMMIT_MESSAGE" value="All CRUDs have been implemented with MongoDB rep" />
   </component>
 </project>
