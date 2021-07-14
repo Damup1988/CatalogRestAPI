@@ -4,16 +4,12 @@
     <projectFile>Catalog/Catalog.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bb5394-5d1b-4325-9c13-e39ec6968a33" name="Default Changelist" comment="">
+    <list default="true" id="b3bb5394-5d1b-4325-9c13-e39ec6968a33" name="Default Changelist" comment="all the methods have been changed to async&#10;dotnet secret feature has been added&#10;health check has been added">
+      <change afterPath="$PROJECT_DIR$/Catalog/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Repository/IItemRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Repository/IItemRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Repository/ItemRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Repository/ItemRepositoryMongoDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Repository/ItemRepositoryMongoDb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog/Catalog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Catalog.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Catalog.Dto/CreateItemDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Catalog.Dto/UpdateItemDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2E9BEEB1-8083-4F4B-9ABE-A5F3DB1BC8BD/2C2/AsyncTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Catalog/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Catalog.Repository/ItemRepositoryMongoDb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Catalog.Domain/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Catalog.Repository/IItemRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -53,6 +55,7 @@
       <option value="$PROJECT_DIR$/Catalog/appsettings.json" />
       <option value="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" />
       <option value="$PROJECT_DIR$/Catalog/Startup.cs" />
+      <option value="$PROJECT_DIR$/Catalog/Dockerfile" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1unnPtH4xA2xbYwGY8stzVeZ4wD" />
@@ -70,9 +73,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Catalog">
+  <component name="RunManager" selected="Docker.Catalog/Dockerfile">
     <configuration name="Catalog" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Catalog/Catalog.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -103,6 +108,27 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Catalog/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="catalog:v1" />
+          <option name="containerName" value="" />
+          <option name="contextFolderPath" value="." />
+          <option name="sourceFilePath" value="Catalog/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Catalog" />
+      <item itemvalue=".NET Launch Settings Profile.Catalog: IIS Express" />
+      <item itemvalue="Docker.Catalog/Dockerfile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Catalog/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,7 +142,7 @@
       <workItem from="1625394913955" duration="546000" />
       <workItem from="1625397122080" duration="3972000" />
       <workItem from="1626006545724" duration="8873000" />
-      <workItem from="1626131755335" duration="4839000" />
+      <workItem from="1626131755335" duration="13007000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625310236523</created>
@@ -153,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626009731300</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="all the methods have been changed to async&#10;dotnet secret feature has been added&#10;health check has been added">
+      <created>1626136859832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626136859832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +213,7 @@
     <MESSAGE value="CRUD has been implemented for our virtual repository" />
     <MESSAGE value="Repo for mongoDb has been added" />
     <MESSAGE value="All CRUDs have been implemented with MongoDB rep" />
-    <option name="LAST_COMMIT_MESSAGE" value="All CRUDs have been implemented with MongoDB rep" />
+    <MESSAGE value="all the methods have been changed to async&#10;dotnet secret feature has been added&#10;health check has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="all the methods have been changed to async&#10;dotnet secret feature has been added&#10;health check has been added" />
   </component>
 </project>
