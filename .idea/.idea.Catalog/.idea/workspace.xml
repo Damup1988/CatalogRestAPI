@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bb5394-5d1b-4325-9c13-e39ec6968a33" name="Default Changelist" comment="all the methods have been changed to async&#10;dotnet secret feature has been added&#10;health check has been added">
-      <change afterPath="$PROJECT_DIR$/Catalog/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/Catalog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Catalog.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6fb022edda45b55d9401ebcaf04edc16e2c3e5db" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -143,6 +144,7 @@
       <workItem from="1625397122080" duration="3972000" />
       <workItem from="1626006545724" duration="8873000" />
       <workItem from="1626131755335" duration="13007000" />
+      <workItem from="1626592322717" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625310236523</created>
