@@ -25,21 +25,25 @@ namespace Catalog.Controllers
         }
         
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ReadItemDto>>> GetItemsAsync()
+        public async Task<IEnumerable<ReadItemDto>> GetItemsAsync()
         {
             var items = (await _repository.GetItemsAsync()).Select(item => item.AsDto());
             
             _logger.LogInformation($"{DateTime.UtcNow:hh:mm:ss}: Retrieved {items.Count()} items");
             
-            return Ok(items);
+            //return Ok(items);
+            return items;
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<ReadItemDto>> GetItemAsync(Guid id)
         {
-            var item = (await _repository.GetItemAsync(id)).AsDto();
+            //var item = (await _repository.GetItemAsync(id)).AsDto();
+            //if (item == null) return NotFound();
+            //else return Ok(item);
+            var item = await _repository.GetItemAsync(id);
             if (item == null) return NotFound();
-            else return Ok(item);
+            else return item.AsDto();
         }
         
         [HttpPost]

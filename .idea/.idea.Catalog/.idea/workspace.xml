@@ -4,10 +4,10 @@
     <projectFile>Catalog/Catalog.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bb5394-5d1b-4325-9c13-e39ec6968a33" name="Default Changelist" comment="Kubernetes has been implemented">
+    <list default="true" id="b3bb5394-5d1b-4325-9c13-e39ec6968a33" name="Default Changelist" comment="logging has been added">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kubernetes/catalog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Kubernetes/catalog.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,9 @@
       <option value="$PROJECT_DIR$/Catalog.Settings/MongoDbSettings.cs" />
       <option value="$PROJECT_DIR$/Catalog/Startup.cs" />
       <option value="$PROJECT_DIR$/Catalog/Dockerfile" />
+      <option value="$PROJECT_DIR$/Catalog.UnitTests/UnitTest1.cs" />
       <option value="$PROJECT_DIR$/Catalog/Controllers/ItemController.cs" />
+      <option value="$PROJECT_DIR$/Catalog.UnitTests/ItemControllerTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1unnPtH4xA2xbYwGY8stzVeZ4wD" />
@@ -146,7 +148,7 @@
       <workItem from="1625397122080" duration="3972000" />
       <workItem from="1626006545724" duration="8873000" />
       <workItem from="1626131755335" duration="13007000" />
-      <workItem from="1626592322717" duration="4272000" />
+      <workItem from="1626592322717" duration="12299000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1625310236523</created>
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626597447661</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="logging has been added">
+      <created>1626600595828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626600595828</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +235,7 @@
     <MESSAGE value="All CRUDs have been implemented with MongoDB rep" />
     <MESSAGE value="all the methods have been changed to async&#10;dotnet secret feature has been added&#10;health check has been added" />
     <MESSAGE value="Kubernetes has been implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kubernetes has been implemented" />
+    <MESSAGE value="logging has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging has been added" />
   </component>
 </project>
